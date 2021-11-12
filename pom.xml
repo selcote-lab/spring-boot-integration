@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-integration</name>
 	<description>spring-boot-integration description</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -30,6 +31,9 @@
 	</dependencies>
 
 	<build>
+		<finalName>
+			spring-boot-integration
+		</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
